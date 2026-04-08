@@ -27,23 +27,4 @@ It is designed for applications that require secure authentication and user mana
 
 ---
 
-Installation ⚙️
-Clone the repository:
-git clone https://github.com/YOUR_USERNAME/user_auth_api.git
-cd user_auth_api
-Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate    # Linux/Mac
-venv\Scripts\activate       # Windows
-Install dependencies:
-pip install -r requirements.txt
-Set up environment variables in .env:
-SECRET_KEY=your_secret_key
-DEBUG=True
-DB_NAME=user_auth_db
-DB_USER=root
-DB_PASSWORD=password
-Run migrations:
-python manage.py migrate
-Run the server:
-python manage.py runserver
+
